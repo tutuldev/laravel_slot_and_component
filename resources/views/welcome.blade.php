@@ -43,6 +43,14 @@
     </x-slot>
      <p class="mb-0">Whenever you need  dfg.</p>
  </x-alert>
+
+ {{-- card component  --}}
+ {{-- <x-card/> --}}
+ @php
+     $componentName = "card"
+    //  $componentName = "alert"
+ @endphp
+<x-dynamic-component :component="$componentName" class="m-4"/>
 </body>
 </html>
 
