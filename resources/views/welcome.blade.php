@@ -41,9 +41,11 @@
      Heading goes here
      {{$component->link("just Testing","https://www.facebook.com")}}
     </x-slot>
-     <p class="mb-0">Whenever you need  dfg.
-        {{$component->link("just Testing","https://www.facebook.com")}}
-     </p>
+     <p class="mb-0">Whenever you need  dfg.</p>
  </x-alert>
+</body>
+</html>
+
+
 </body>
 </html>
