@@ -51,6 +51,10 @@
     //  $componentName = "alert"
  @endphp
 <x-dynamic-component :component="$componentName" class="m-4"/>
+<x-form action="/somepage" method="GET" id="firstform" class="myform">
+    <input type="text" name="name">
+    <button type="submit">Save</button>
+</x-form>
 </body>
 </html>
 
